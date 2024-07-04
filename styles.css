@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: medium;
+  user-select: none;
+}
+
+.title{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.move-icon{
+  width: 50px;
+}
+
+.move-button{
+  background-color: transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.move-button:hover{
+  transform: scale(1.1);
+}
+
+.result{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.reset-button{
+  border: none;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-weight: Bold;
+  font-style: normal;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.stonePaperScissors{
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  border: 3px solid white;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, .7);
+}
+
+.moveScore{
+  font-size: 20px;
+}
