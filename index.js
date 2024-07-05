@@ -86,3 +86,7 @@ function updateScoreElement() {
 document.querySelector('.js-score').innerHTML = `Wins: ${score.wins} , Losses: ${score.losses} , Ties: ${score.ties}.`;
 }
 
+function clearTheGame () {
+  document.querySelector('.js-moves').innerHTML = '';
+  document.querySelector('.js-Result').innerHTML = '';
+}
