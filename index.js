@@ -76,8 +76,7 @@ localStorage.setItem('score',JSON.stringify(score));
 
 updateScoreElement()
 
-  document.querySelector('.js-moves').innerHTML = `You  <img class='move-icon' src="./Media/${playerMove}-emoji.png"> <img class='move-icon' src="./Media/${computerMove}-emoji.png">Computer`;
-
+document.querySelector('.js-moves').innerHTML = `You <img class='move-icon' src="/Stone-Paper-Scissors/Media/${playerMove}-emoji.png"> <img class='move-icon' src="/Stone-Paper-Scissors/Media/${computerMove}-emoji.png">Computer`;
 document.querySelector('.js-Result').innerText = Result;
 }   
 
